@@ -17,7 +17,7 @@ export default {
 <style lang="scss" scoped>
 main {
 
-  text-align:center;
+  text-align: center;
   line-height: 100px;
   min-height: 100px;
   background-color: black;
