@@ -9,8 +9,23 @@ export default {
 </script>
 
 <template>
-<h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe unde, nostrum error ut esse molestiae itaque voluptatum, expedita in adipisci nesciunt exercitationem, quidem accusantium repellendus maiores officiis porro nihil perferendis.</h2>
+  <footer>
+    <div class="button"><button>SIGN-UP NOW!</button></div>
+  </footer>
+
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+footer {
+  min-height: 100px;
+  background-color: #303030;
+}
+button {
+  border: 1px solid blue;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding: 10px;
+
+}
 </style>

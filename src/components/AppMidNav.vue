@@ -52,10 +52,11 @@ export default {
 <style lang="scss" scoped>
 section{
   background-color: #0282F9;
-  min-height: 100px;
+  min-height: 150px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+
 }
 ul{
   display: flex;
