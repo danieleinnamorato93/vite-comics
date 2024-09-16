@@ -9,8 +9,18 @@ export default {
 </script>
 
 <template>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos omnis reiciendis quae quod harum. Ipsum velit, ratione necessitatibus delectus explicabo non aspernatur qui blanditiis est temporibus architecto eius provident quisquam.
+<main>
+<h2>-->Main Content goes Here<--</h2>
+</main>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+main {
+
+  text-align:center;
+  line-height: 100px;
+  min-height: 100px;
+  background-color: black;
+  h2 {color: white;}
+}
 </style>
