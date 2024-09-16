@@ -53,19 +53,33 @@ export default {
 section{
   background-color: #0282F9;
   min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ul{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
+  justify-content: center;
+ 
 }
 li {
-  text-align: center;
+  display: flex;
+
+  margin: 0 15px;
+  
 }
 img{
   filter: invert(0%);
-  height: 30px;
+  height: 35px;
+  margin-right: 10px ;
 
+}
+span {
+  color: white;
+  font-size: 12px;
+  line-height: 35px;
 }
 </style>
