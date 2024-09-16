@@ -54,7 +54,7 @@ export default {
 section {
   background-image: url(../assets/img/footer-bg.jpg);
   background-size: cover;
-  min-height: 300px;
+  min-height: 200px;
   display: flex;
   justify-content:space-around;
   align-items: center;
