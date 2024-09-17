@@ -1,10 +1,15 @@
 <script>
+import ComicsList from "./ComicsList.vue";
+
 export default {
   data() {
     return {
       
     }
-  }
+  },
+  components:{
+    ComicsList
+  } 
 }
 </script>
 
@@ -12,6 +17,7 @@ export default {
 <main>
   <div class="jumbotron"></div>
 <button>CURRENT SERIES</button>
+<ComicsList />
 </main>
 </template>
 
