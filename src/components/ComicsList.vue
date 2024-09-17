@@ -88,15 +88,24 @@ export default {
 </script>
 
 <template>
-<ComicsListCard 
-v-for="(comicItem, index) in Comics" :key="index"
-:comicName="comicItem.series"
-:comicImg="comicItem.thumb"
-/>
+    <section>    
+        <ComicsListCard 
+        v-for="(comicItem, index) in Comics" :key="index"
+        :comicName="comicItem.series"
+        :comicImg="comicItem.thumb"
+        />
+</section>
 </template>
 
 <style lang="scss" scoped>
-h1{
-    color: white;
+section{
+    max-width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-bottom: 10px;
+ 
 }
 </style>

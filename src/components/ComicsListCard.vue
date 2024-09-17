@@ -20,10 +20,11 @@ export default {
 </script>
 
 <template>
-    <div class="container">
+    <div class="comic-item">
+       
+        <img :src=" comicImg " 
+        :alt="comicName">
         <h3>{{ comicName }}</h3>
-        <div class="imgsContainer"><img :src=" comicImg " 
-        :alt="comicName"></div>
     </div>
 
 
@@ -33,16 +34,30 @@ export default {
 
 h3{
     color: white;
+    font-size: 13px;
+   
+    
+   
 }
-.container {
-    text-align: center;
+.comic-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 250px;
+    width: calc(100% / 6);
+   
+    box-sizing: border-box;
 
-    .imgsContainer{
-        display: flex;
-        justify-content: center;
-        img{
-    max-width: 100px;
-}
+    img {
+        max-width: 130px;
+        max-height: 190px;
+        object-fit: contain;
+        padding-bottom: 20px;
+        padding-top: 7px;
     }
+    
 }
+
+    
 </style>
