@@ -20,13 +20,29 @@ export default {
 </script>
 
 <template>
-<h3>{{ comicName }}</h3>
-<img :src=" comicImg " :alt="comicName">
+    <div class="container">
+        <h3>{{ comicName }}</h3>
+        <div class="imgsContainer"><img :src=" comicImg " 
+        :alt="comicName"></div>
+    </div>
+
 
 </template>
 
 <style lang="scss" scoped>
-img{
-    max-width: 150px;
+
+h3{
+    color: white;
+}
+.container {
+    text-align: center;
+
+    .imgsContainer{
+        display: flex;
+        justify-content: center;
+        img{
+    max-width: 100px;
+}
+    }
 }
 </style>
