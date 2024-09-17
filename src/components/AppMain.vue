@@ -10,17 +10,31 @@ export default {
 
 <template>
 <main>
-<h2>-->Main Content goes Here<--</h2>
+  <div class="jumbotron"></div>
+<button>CURRENT SERIES</button>
 </main>
 </template>
 
 <style lang="scss" scoped>
 main {
-
-  text-align: center;
-  line-height: 100px;
-  min-height: 100px;
+  position: relative;
+  min-height: 500px;
   background-color: black;
-  h2 {color: white;}
+ 
+  .jumbotron{
+    background-image: url(../assets/img/jumbotron.jpg);
+    background-size: cover;
+    min-height: 300px;
+  }
 }
+button {
+  background-color: #0282F9;
+  padding: 20px;
+  border: none;
+  color: white;
+  position: absolute;
+  top: 265px;
+  left: 170px;
+}
+
 </style>
