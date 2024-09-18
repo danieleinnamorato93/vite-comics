@@ -4,6 +4,7 @@ import AppMain from './components/AppMain.vue';
 import AppMidNav from './components/AppMidNav.vue';
 import AppSectionLinks from './components/AppSectionLinks.vue';
 import AppFooter from './components/AppFooter.vue';
+
 export default {
   data() {
     return{
